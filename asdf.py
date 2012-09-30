@@ -4,8 +4,8 @@ print "You have put this in: ", x
 y = input("Give y?")
 print "You have put this in: ", y
 
-z = raw_input("Give operation")
 while True:
+ z = raw_input("Give operation")
  if z == "+":
   print x+y
   break
@@ -20,4 +20,3 @@ while True:
   break
  else:
   print('plz give a proper operator')
-  break
