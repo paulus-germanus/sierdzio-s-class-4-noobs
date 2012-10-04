@@ -15,8 +15,9 @@ totalCost = totalCost + smallBoxes * 1.99
 separateTimbits = rest
 totalCost = totalCost + separateTimbits * 0.20
 
-print(largeBoxes)
-print(mediumBoxes)
-print(smallBoxes)
-print(separateTimbits)
-print(totalCost)
+print('the number of large boxes is:', largeBoxes)
+print('the number of medium boxes is:', mediumBoxes)
+print('the number of small boxes is:', smallBoxes)
+print('the number of separate timbits is:', separateTimbits)
+print('the total cost is:', totalCost)
+
